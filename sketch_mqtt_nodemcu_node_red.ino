@@ -4,7 +4,7 @@
 const char* ssid = "anuradha";
 const char* password = "dse24tr6";
 
-const char* mqtt_server = "91.121.93.94";
+const char* mqtt_server = "91.121.93.94";   //  "test.mosquitto.org" ip address
 
 WiFiClient espClient22;
 PubSubClient client(espClient22);
